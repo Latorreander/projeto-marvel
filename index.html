@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/variables.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/fonts.css" />
+    <link rel="stylesheet" href="./src/css/animation.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="src/css/responsive.css" />
+
+    <title>Projeto Marvel</title>
+  </head>
+  <body>
+    <main>
+      <header class="header">
+        <h1 class="title">character select</h1>
+      </header>
+      <div class="selection-screen">
+        <div class="big-character player01">
+          <img
+            src="./src/images/thor.png"
+            alt="character image"
+            id="character-player-1"
+          />
+          <div class="name">
+            <h2 id="name">Thor</h2>
+          </div>
+        </div>
+        <ul class="character-list">
+          <li class="character selected" id="thor" data-name="Thor">
+            <span class="tag">1P</span>
+            <img src="./src/images/thor.jpg" alt="character Thor" />
+          </li>
+          <li class="character" id="homem-de-ferro" data-name="Homem de Ferro">
+            <span class="tag">1P</span>
+            <img
+              src="./src/images/homem-de-ferro.jpg"
+              alt="character Homem de Ferro"
+            />
+          </li>
+
+          <li class="character" id="viuva-negra" data-name="Viúva Negra">
+            <span class="tag">1P</span>
+            <img
+              src="./src/images/viuva-negra.jpg"
+              alt="character Viúva Negra"
+            />
+          </li>
+
+          <li class="character" id="hulk" data-name="Hulk">
+            <span class="tag">1P</span>
+            <img src="./src/images/hulk.jpg" alt="character Hulk" />
+          </li>
+
+          <li
+            class="character"
+            id="capitao-america"
+            data-name="Capitão América"
+          >
+            <span class="tag">1P</span>
+            <img
+              src="./src/images/capitao-america.jpg"
+              alt="character Capitão América"
+            />
+          </li>
+
+          <li
+            class="character player02-selected"
+            id="ultron"
+            data-name="Ultron"
+          >
+            <span class="tag">2P</span>
+            <img src="./src/images/ultron.jpg" alt="character Ultron" />
+          </li>
+
+          <li class="character" id="doutor-doom" data-name="Doutor Doom">
+            <span class="tag">1P</span>
+            <img
+              src="./src/images/doutor-doom.jpg"
+              alt="character Doutor Doom"
+            />
+          </li>
+
+          <li class="character" id="nova" data-name="Nova">
+            <span class="tag">1P</span>
+            <img src="./src/images/nova.jpg" alt="character Nova" />
+          </li>
+
+          <li class="character" id="fênix" data-name="Fênix">
+            <span class="tag">1P</span>
+            <img src="./src/images/fenix.jpg" alt="character Fênix" />
+          </li>
+        </ul>
+        <div class="big-character player02">
+          <img
+            src="./src/images/ultron.png"
+            alt="character image"
+            id="character-player-2"
+          />
+          <div class="name">
+            <h2>Ultron</h2>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
